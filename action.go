@@ -241,10 +241,10 @@ type ActionOperationHostGroups []ActionOperationHostGroup
 
 type ActionOperationMessage struct {
 	OperationID    string `json:"operationid,omitempty"`
-	DefaultMessage string `json:"default_msg,omitempty"`
-	MediaTypeID    string `json:"mediatypeid,omitempty"`
-	Message        string `json:"message,omitempty"`
-	Subject        string `json:"subject,omitempty"`
+	DefaultMessage string `json:"default_msg"`
+	MediaTypeID    string `json:"mediatypeid"`
+	Message        string `json:"message"`
+	Subject        string `json:"subject"`
 }
 
 type ActionOperationMessageUserGroup struct {
